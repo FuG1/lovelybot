@@ -16,7 +16,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token='6975588738:AAFhDb0vyfaupLl183Tvc28WURWRww2OcO8')
+bot = Bot(token='your_token')
 dp = Dispatcher(bot, storage=MemoryStorage())
 users = [511800914, 1218486392]
 
